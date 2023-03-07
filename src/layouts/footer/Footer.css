@@ -1,0 +1,40 @@
+  .Footer {
+    /* display: flex;
+    justify-content: center; */
+    background-color: #282c34;
+    height: 20vh;
+    box-shadow: 0px 1px 10px 0px #282c34;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Footer-logo {
+      animation: Footer-logo-spin infinite 10s linear;
+    }
+  }
+  
+  @keyframes Footer-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(3600deg);
+    }
+  }
+  
+  .Footer-logo-container > a {
+  }
+  
+  .Footer-logo {
+    height: 6rem;
+    cursor: pointer;
+  }
+  
+  .Footer-logo-text {
+    border: 1px solid red;
+    display: inlline-block;
+    position: relative;
+    top:20%;
+    left: 50%;
+    color: #ffffff;
+  }

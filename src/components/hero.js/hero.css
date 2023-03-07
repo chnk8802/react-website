@@ -1,0 +1,39 @@
+#hero-container {
+    /* border: 1px solid magenta; */
+    color: #000;
+    font-size: 5rem;
+    /* margin-top: 64px; */
+    height: 100vh;
+    background-color: #61dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hero-text {
+    /* border: 1px solid red; */
+    color: #282c34;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    font-style: italic;
+    overflow: hidden;
+    animation: typewriter 2.5s steps(7) 0.5s 1 normal both, blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 420px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      /* border-right-color: hsl(0, 0%, 80%); */
+      border-right: 0.5rem solid #282c34;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
